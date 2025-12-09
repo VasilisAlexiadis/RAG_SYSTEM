@@ -1,0 +1,93 @@
+# -----------------------------------------
+# Python
+# -----------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Distribution / Packaging
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+
+# Cache
+*.cache
+*.log
+*.tmp
+.cache/
+.mypy_cache/
+.pytest_cache/
+pip-wheel-metadata/
+
+# Byte-compiled / optimized / DLL files
+*.dll
+*.so
+*.dylib
+
+# SQLite / Chroma / Vector Store artifacts
+chroma/
+*.sqlite
+*.db
+*.db-journal
+
+# PDF parser temp files
+*.pdf2txt
+*.layout
+
+# Models / Large files
+models/
+*.bin
+*.pt
+*.ckpt
+
+# Common OS trash
+.DS_Store
+Thumbs.db
+
+# -----------------------------------------
+# Visual Studio Code
+# -----------------------------------------
+.vscode/
+.history/
+*.code-workspace
+
+# -----------------------------------------
+# FastAPI / Uvicorn
+# -----------------------------------------
+*.pid
+*.sock
+
+# -----------------------------------------
+# Streamlit
+# -----------------------------------------
+.streamlit/
+
+# -----------------------------------------
+# Environment files
+# -----------------------------------------
+.env
+.env.local
+.env.*.local
+
+# -----------------------------------------
+# Jupyter notebooks
+# -----------------------------------------
+.ipynb_checkpoints/
+*.ipynb
+
+# -----------------------------------------
+# Project specific
+# -----------------------------------------
+data/raw/
+data/processed/
+logs/
+uploads/
